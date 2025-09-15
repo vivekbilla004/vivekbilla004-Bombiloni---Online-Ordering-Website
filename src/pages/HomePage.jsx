@@ -6,9 +6,11 @@ const HomePage = () => {
     <div className="w-full h-full bg-gradient-to-r from-orange-500 to-red-500 overflow-hidden">
       <div className="flex flex-col items-center justify-center h-screen px-4">
         <div className="bg-white bg-opacity-20 backdrop-blur-md rounded-2xl shadow-xl p-6 text-center w-full max-w-xl">
+          <div className="flex flex-row gap-4 items-center justify-center mb-6">
+            <img src="./images/bombiloni logo.jpg" alt="" className="h-20 w-20 rounded-xl "/>
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">
-            🍩 BOMBILONI
-          </h1>
+           BOMBILONI
+          </h1></div>
           <p className="text-lg md:text-xl text-black mb-6">
             Discover the best recipes and enjoy amazing deals on Bombiloni!
           </p>

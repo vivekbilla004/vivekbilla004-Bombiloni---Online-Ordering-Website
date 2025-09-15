@@ -1,7 +1,7 @@
 import React from "react";
 
 const RecipeCard = ({ name, price, image }) => {
-  const phoneNumber = "918149307910";
+  const phoneNumber = "918390622444";
   const message = `Hi, I would like to order:\n${name} - ₹${price}`;
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   // Replace 91XXXXXXXXXX with your real number
